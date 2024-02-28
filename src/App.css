@@ -1,0 +1,10 @@
+* {
+  --primary-color: #3a6f9c;
+  --secondary-color: #b6ddff;
+  --bg-color: linear-gradient(
+    90deg,
+    rgba(58, 111, 156, 1) 0%,
+    rgba(182, 221, 255, 1) 51%,
+    rgba(58, 111, 156, 1) 100%
+  );
+}

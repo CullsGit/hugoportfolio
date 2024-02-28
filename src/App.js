@@ -1,9 +1,10 @@
 import "./App.css";
+import LandingPage from "./containers/landingPage/LandingPage";
 
 function App() {
   return (
-    <div>
-      <h2>Hugo Portfolio</h2>
+    <div className="container">
+      <LandingPage />
     </div>
   );
 }
