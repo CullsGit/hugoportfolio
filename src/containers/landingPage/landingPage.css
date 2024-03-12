@@ -6,13 +6,22 @@
   width: 90vw;
 }
 
+.landing-page__content {
+  display: flex;
+}
+
+.landing-page__text {
+  flex: 1;
+  border: 2px solid red;
+}
+
+.landing-page__image {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
 .landing-page button {
   color: black;
   background: var(--primary-gradient);
   border: none;
-  z-index: 1;
-}
-
-.landing-page h1 {
-  z-index: 1;
 }
