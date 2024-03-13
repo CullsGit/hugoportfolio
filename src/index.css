@@ -7,4 +7,10 @@
     rgba(232, 232, 232, 1) 50%,
     rgba(255, 7, 171, 1) 100%
   );
+  --bold-font: "BoldFont", sans-serif;
+}
+
+@font-face {
+  font-family: "Bold Font";
+  src: url("../public/fonts/Agrandir-GrandHeavy.otf") format("otf");
 }
