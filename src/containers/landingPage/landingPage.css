@@ -12,8 +12,19 @@
 }
 
 .landing-page__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1;
-  border: 2px solid red;
+}
+
+.landing-page__text h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.landing-page__text p {
+  font-size: 24px;
 }
 
 .landing-page button {

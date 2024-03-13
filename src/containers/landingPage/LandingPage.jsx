@@ -10,7 +10,8 @@ export default function LandingPage() {
         <div className="landing-page__border" />
         <div className="landing-page__content">
           <div className="landing-page__text">
-            <h1>Hello! I am a keen Web Developer.</h1>
+            <h1>Hugo Cullinan</h1>
+            <p>Hello! I am a keen Web Developer.</p>
           </div>
           <div>
             <img src={headshot} />
