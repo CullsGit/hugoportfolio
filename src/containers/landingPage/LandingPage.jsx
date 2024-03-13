@@ -1,4 +1,5 @@
 import React from "react";
+import headshot from "../../assets/headshot.svg";
 
 import "./landingPage.css";
 
@@ -9,15 +10,15 @@ export default function LandingPage() {
         <div className="landing-page__border" />
         <div className="landing-page__content">
           <div className="landing-page__text">
-            <h1>Hello, my name is Hugo Cullinan I'm a keen Web Developer.</h1>
+            <h1>Hello! I am a keen Web Developer.</h1>
           </div>
-          <div className="landing-page__image">
-            <h1>Image</h1>
+          <div>
+            <img src={headshot} />
           </div>
         </div>
 
         <button type="button" className="btn btn-primary mt-5">
-          About me
+          Projects
         </button>
       </div>
     </>
