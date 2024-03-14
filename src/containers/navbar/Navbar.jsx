@@ -4,8 +4,8 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="navbar-container">
-      <nav className="navbar navbar-expand-lg fixed-top">
+    <div className="navbar-container d-flex">
+      <nav className="navbar navbar-expand-lg">
         <div className="navbar-nav">
           <a className="nav-item nav-link active" href="#">
             Home
