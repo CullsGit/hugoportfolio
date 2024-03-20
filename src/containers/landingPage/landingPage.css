@@ -14,16 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1;
 }
 
 .landing-page__text h1 {
   text-transform: uppercase;
-  font-size: 6rem;
-}
-
-.landing-page__text p {
-  font-size: 1.5rem;
 }
 
 .landing-page button {
