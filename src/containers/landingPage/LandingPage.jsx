@@ -14,7 +14,7 @@ export default function LandingPage() {
               <p className="lead">Hello! I am a keen Web Developer.</p>
             </div>
             <div className="col-10 col-lg-6">
-              <img src={headshot} alt="headshot" />
+              <img src={headshot} alt="headshot" className="img-fluid" />
             </div>
           </div>
 

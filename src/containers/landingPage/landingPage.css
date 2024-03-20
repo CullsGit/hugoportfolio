@@ -20,9 +20,42 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 572px) {
+  .landing-page__text h1 {
+    font-size: 2rem;
+  }
+  .landing-page__text p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .landing-page__text h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .landing-page__text h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing-page__text p {
+    font-size: 1.5rem;
+  }
+}
+
 .landing-page button {
   color: black;
   background: var(--primary-gradient);
   border: none;
   text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  .landing-page button {
+    font-size: 1.8rem;
+  }
 }
