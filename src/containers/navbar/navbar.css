@@ -1,3 +1,4 @@
 .custom-nav {
   background: var(--primary-gradient);
+  box-sizing: border-box;
 }

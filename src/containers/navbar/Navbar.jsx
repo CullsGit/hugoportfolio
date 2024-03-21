@@ -4,7 +4,7 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md custom-nav">
+    <nav className="navbar navbar-expand-md custom-nav fixed-top">
       <div className="container">
         <button
           className="navbar-toggler"
@@ -16,12 +16,12 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="nav">
           <ul className="navbar-nav">
             <li className="nav-item me-3">
-              <a href="#" className="nav-link fs-2 fw-bold active">
+              <a href="#home" className="nav-link fs-2 fw-bold active">
                 Home
               </a>
             </li>
             <li className="nav-item me-3">
-              <a href="#" className="nav-link fs-2 fw-bold">
+              <a href="#about" className="nav-link fs-2 fw-bold">
                 About
               </a>
             </li>

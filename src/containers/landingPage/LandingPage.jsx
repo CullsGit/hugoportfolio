@@ -6,7 +6,10 @@ import "./landingPage.css";
 export default function LandingPage() {
   return (
     <>
-      <div className="container landing-page">
+      <div
+        className="container min-vh-100 landing-page d-flex align-items-center"
+        id="home"
+      >
         <div className="landing-page__border">
           <div className="landing-page__content row">
             <div className="landing-page__text col-auto col-lg-6">
