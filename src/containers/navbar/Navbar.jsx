@@ -4,23 +4,40 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="navbar-container d-flex">
-      <nav className="navbar navbar-expand-lg">
-        <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="#">
-            Home
-          </a>
-          <a className="nav-item nav-link" href="#">
-            About
-          </a>
-          <a className="nav-item nav-link" href="#">
-            Projects
-          </a>
-          <a className="nav-item nav-link" href="#">
-            Contact
-          </a>
+    <nav className="navbar navbar-expand-md custom-nav">
+      <div className="container">
+        <button
+          className="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <div className="navbar-toggler-icon"></div>
+        </button>
+        <div className="collapse navbar-collapse" id="nav">
+          <ul className="navbar-nav">
+            <li className="nav-item me-3">
+              <a href="#" className="nav-link fs-2 fw-bold active">
+                Home
+              </a>
+            </li>
+            <li className="nav-item me-3">
+              <a href="#" className="nav-link fs-2 fw-bold">
+                About
+              </a>
+            </li>
+            <li className="nav-item me-3">
+              <a href="#" className="nav-link fs-2 fw-bold">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item me-3">
+              <a href="#" className="nav-link fs-2 fw-bold">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
