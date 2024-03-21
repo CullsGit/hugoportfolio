@@ -2,3 +2,6 @@
   background: var(--primary-gradient);
   box-sizing: border-box;
 }
+a {
+  cursor: pointer;
+}
