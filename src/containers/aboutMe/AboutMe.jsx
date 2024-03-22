@@ -25,7 +25,7 @@ export default function AboutMe() {
             </p>
           </div>
           <div className="about-page__img">
-            <img src={desk} alt="desk" />
+            <img src={desk} alt="desk" className="img-fluid" />
           </div>
         </div>
       </div>
