@@ -4,6 +4,36 @@
   padding: 40px;
 }
 
+.about-page__border {
+  position: relative;
+}
+
+.about-page__border::after {
+  content: " ";
+  position: absolute;
+  right: 0%;
+  width: 15%;
+  height: 30%;
+  background-image: url("../../assets/cone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 1200px) {
+  .about-page__border::after {
+    right: -8%;
+    width: 15%;
+    height: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-page__border::after {
+    display: none;
+  }
+}
+
 .about-page__text h1 {
   font-family: var(--bold-font);
 }
