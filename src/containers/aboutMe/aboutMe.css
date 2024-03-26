@@ -16,4 +16,7 @@
   .about-page__text p {
     font-size: medium;
   }
+  .about-page__text h1 {
+    padding-top: 1rem;
+  }
 }
