@@ -2,6 +2,11 @@
   border: 4px solid white;
   border-radius: 6%;
   padding: 40px;
+  margin-top: 12rem;
+}
+
+.projects-page__content h2 {
+  font-family: var(--bold-font);
 }
 
 .card {

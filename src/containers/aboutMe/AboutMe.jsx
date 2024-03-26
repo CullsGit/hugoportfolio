@@ -1,6 +1,5 @@
 import React from "react";
 import desk from "../../assets/computer_desk.png";
-import cone from "../../assets/cone.png";
 
 import "./aboutMe.css";
 
