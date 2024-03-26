@@ -7,3 +7,15 @@
 .card {
   width: 20rem;
 }
+
+.card:nth-child(1) {
+  border: 8px solid rgba(0, 196, 204, 1);
+}
+
+.card:nth-child(2) {
+  border: 8px solid rgba(232, 232, 232, 1);
+}
+
+.card:nth-child(3) {
+  border: 8px solid rgba(255, 7, 171, 1);
+}
