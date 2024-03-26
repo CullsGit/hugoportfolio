@@ -3,3 +3,7 @@
   border-radius: 6%;
   padding: 40px;
 }
+
+.about-page__text h1 {
+  font-family: var(--bold-font);
+}
