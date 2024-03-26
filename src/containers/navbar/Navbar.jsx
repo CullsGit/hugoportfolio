@@ -7,7 +7,6 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const homeSection = document.getElementById("home");
       const aboutSection = document.getElementById("about");
       const projectsSection = document.getElementById("projects");
       const contactSection = document.getElementById("contact");
@@ -37,8 +36,8 @@ export default function Navbar() {
   const handleClick = (sectionId) => {
     const section = document.getElementById(sectionId);
     const navbarHeight = document.querySelector(".navbar").offsetHeight;
-    const offset = 10; // Add some offset for better accuracy
-    const targetPosition = section.offsetTop - navbarHeight - offset;
+    const extraOffset = 10;
+    const targetPosition = section.offsetTop - navbarHeight - extraOffset;
 
     window.scrollTo({
       top: targetPosition,

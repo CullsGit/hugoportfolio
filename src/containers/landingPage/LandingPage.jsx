@@ -4,6 +4,13 @@ import headshot from "../../assets/headshot.svg";
 import "./landingPage.css";
 
 export default function LandingPage() {
+  const handleClick = () => {
+    const projectsSection = document.getElementById("projects");
+    window.scrollTo({
+      top: projectsSection.offsetTop - 85, // fix this number in future
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div
@@ -21,7 +28,11 @@ export default function LandingPage() {
             </div>
           </div>
 
-          <button type="button" className="btn btn-primary btn-lg mt-5">
+          <button
+            type="button"
+            className="btn btn-primary btn-lg mt-5"
+            onClick={handleClick}
+          >
             Projects
           </button>
         </div>
