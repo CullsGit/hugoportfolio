@@ -7,3 +7,13 @@
 .about-page__text h1 {
   font-family: var(--bold-font);
 }
+
+.about-page__text p {
+  font-size: larger;
+}
+
+@media (max-width: 992px) {
+  .about-page__text p {
+    font-size: medium;
+  }
+}

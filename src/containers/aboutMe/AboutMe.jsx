@@ -8,10 +8,10 @@ export default function AboutMe() {
     <div className="container min-vh-100 d-flex align-items-center" id="about">
       <div className="about-page__border">
         <div className="about-page__content row">
-          <div className="about-page__img col">
+          <div className="about-page__img col-10 col-lg-6">
             <img src={desk} alt="desk" className="img-fluid" />
           </div>
-          <div className="about-page__text col">
+          <div className="about-page__text col-auto col-lg-6">
             <h1 className="display-3">About Me</h1>
             <p>
               Hi, I'm Hugo, a passionate web developer specializing in React
