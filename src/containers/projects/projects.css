@@ -9,9 +9,9 @@
   font-family: var(--bold-font);
 }
 
-.card-img-top {
-  height: 200px; /* Set the desired height for the images */
-  object-fit: fill; /* Ensure the images maintain their aspect ratio and cover the entire space */
+.card img {
+  object-fit: cover;
+  height: 100%; /* Ensures the image covers the entire height of its parent */
 }
 
 .card:nth-child(1) {

@@ -11,10 +11,10 @@ export default function Projects() {
       <div className="projects-page__border">
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <img src={pokeimg} class="img-fluid" alt="..." />
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <div class="card-body">
                 <h2 class="card-title">CollectEmAll</h2>
                 <p class="card-text">
@@ -37,10 +37,10 @@ export default function Projects() {
 
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <img src={carsimg} class="img-fluid" alt="..." />
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <div class="card-body">
                 <h2 class="card-title">Deal Cars</h2>
                 <p class="card-text">
@@ -63,10 +63,10 @@ export default function Projects() {
 
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <img src={recipesimg} class="img-fluid" alt="..." />
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <div class="card-body">
                 <h2 class="card-title">Cookbook App</h2>
                 <p class="card-text">
