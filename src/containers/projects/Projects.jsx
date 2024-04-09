@@ -12,7 +12,7 @@ export default function Projects() {
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
             <div class="col-lg-4">
-              <img src={pokeimg} class="img-fluid" alt="..." />
+              <img src={pokeimg} class="img-fluid" alt="pokemon project" />
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -38,7 +38,7 @@ export default function Projects() {
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
             <div class="col-lg-4">
-              <img src={carsimg} class="img-fluid" alt="..." />
+              <img src={carsimg} class="img-fluid" alt="car project" />
             </div>
             <div class="col-lg-8">
               <div class="card-body">
@@ -64,7 +64,7 @@ export default function Projects() {
         <div class="card mb-3 text-white bg-dark">
           <div class="row g-0">
             <div class="col-lg-4">
-              <img src={recipesimg} class="img-fluid" alt="..." />
+              <img src={recipesimg} class="img-fluid" alt="recipe project" />
             </div>
             <div class="col-lg-8">
               <div class="card-body">
