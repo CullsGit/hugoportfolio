@@ -2,22 +2,23 @@ import React from "react";
 import "./projects.css";
 
 import pokeimg from "../../assets/poke.png";
-import carsimg from "../../assets/cars.png";
+import smcarsimg from "../../assets/cars.png";
+import lgcarsimg from "../../assets/singlecar.png";
 import recipesimg from "../../assets/recipes.png";
 
 export default function Projects() {
   return (
     <div className="container min-vh-100" id="projects">
       <div className="projects-page__border">
-        <div class="card mb-3 text-white bg-dark">
-          <div class="row g-0">
-            <div class="col-lg-4">
-              <img src={pokeimg} class="img-fluid" alt="pokemon project" />
+        <div className="card mb-3 text-white bg-dark">
+          <div className="row g-0">
+            <div className="col-xl-4">
+              <img src={pokeimg} className="img-fluid" alt="pokemon project" />
             </div>
-            <div class="col-lg-8">
-              <div class="card-body">
-                <h2 class="card-title">CollectEmAll</h2>
-                <p class="card-text">
+            <div className="col-lg-8">
+              <div className="card-body">
+                <h2 className="card-title">CollectEmAll</h2>
+                <p className="card-text">
                   Immerse yourself in the world of Pokémon with this sleek React
                   FrontEnd application. Seamlessly powered by the PokeAPI, it
                   effortlessly showcases comprehensive information about the
@@ -35,15 +36,24 @@ export default function Projects() {
           </div>
         </div>
 
-        <div class="card mb-3 text-white bg-dark">
-          <div class="row g-0">
-            <div class="col-lg-4">
-              <img src={carsimg} class="img-fluid" alt="car project" />
+        <div className="card mb-3 text-white bg-dark">
+          <div className="row g-0">
+            <div className="col-xl-4">
+              <img
+                src={smcarsimg}
+                className="img-fluid sm-car"
+                alt="car project"
+              />
+              <img
+                src={lgcarsimg}
+                className="img-fluid lg-car"
+                alt="car project"
+              />
             </div>
-            <div class="col-lg-8">
-              <div class="card-body">
-                <h2 class="card-title">Deal Cars</h2>
-                <p class="card-text">
+            <div className="col-lg-8">
+              <div className="card-body">
+                <h2 className="card-title">Deal Cars</h2>
+                <p className="card-text">
                   React-based application for a futuristic-style car dealership.
                   It focuses entirely on the front end and adheres to best
                   practices for React development. The design is sleek and
@@ -61,15 +71,19 @@ export default function Projects() {
           </div>
         </div>
 
-        <div class="card mb-3 text-white bg-dark">
-          <div class="row g-0">
-            <div class="col-lg-4">
-              <img src={recipesimg} class="img-fluid" alt="recipe project" />
+        <div className="card mb-3 text-white bg-dark">
+          <div className="row g-0">
+            <div className="col-xl-4">
+              <img
+                src={recipesimg}
+                className="img-fluid"
+                alt="recipe project"
+              />
             </div>
-            <div class="col-lg-8">
-              <div class="card-body">
-                <h2 class="card-title">Cookbook App</h2>
-                <p class="card-text">
+            <div className="col-lg-8">
+              <div className="card-body">
+                <h2 className="card-title">Cookbook App</h2>
+                <p className="card-text">
                   Front-end React application for a cookbook. Users can create,
                   read, update, and delete recipes, with the data stored in
                   local storage for persistence. The app is designed to be

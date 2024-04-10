@@ -1,8 +1,40 @@
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
 .projects-page__border {
   border: 4px solid white;
   border-radius: 6%;
   padding: 40px;
   margin-top: 12rem;
+}
+
+@media (max-width: 1200px) {
+  .projects-page__border {
+    border: 4px solid transparent;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .sm-car {
+    display: block;
+  }
+  .lg-car {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .sm-car {
+    display: none;
+  }
+  .lg-car {
+    display: block;
+  }
 }
 
 .card h2 {
@@ -16,12 +48,15 @@
 
 .card:nth-child(1) {
   border: 8px solid rgba(0, 196, 204, 1);
+  box-shadow: 0 0 50px rgba(0, 196, 204, 0.5);
 }
 
 .card:nth-child(2) {
   border: 8px solid rgba(232, 232, 232, 1);
+  box-shadow: 0 0 50px rgba(232, 232, 232, 0.5);
 }
 
 .card:nth-child(3) {
   border: 8px solid rgba(255, 7, 171, 1);
+  box-shadow: 0 0 50px rgba(255, 7, 171, 0.5);
 }
