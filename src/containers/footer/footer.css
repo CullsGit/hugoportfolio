@@ -1,0 +1,26 @@
+.footer-banner {
+  margin-top: 5rem;
+  background: var(--primary-gradient);
+  box-sizing: border-box;
+  height: 30rem;
+  color: black;
+}
+
+.footer-banner h1,
+.footer-banner p {
+  color: black;
+}
+
+.footer-banner h1 {
+  font-family: var(--bold-font);
+}
+
+.footer-banner p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 572px) {
+  .footer-banner p {
+    font-size: 1rem;
+  }
+}
