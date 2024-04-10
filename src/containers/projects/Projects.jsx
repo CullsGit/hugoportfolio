@@ -30,7 +30,10 @@ export default function Projects() {
                   before with this elegantly designed and meticulously crafted
                   application.
                 </p>
-                <div className="card-footer">Links</div>
+                <div className="card-footer d-flex justify-content-around poke-links">
+                  <a href="">Link</a>
+                  <a href="">Link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -65,7 +68,10 @@ export default function Projects() {
                   structure, ensuring a modular and maintainable styling
                   approach.
                 </p>
-                <div className="card-footer">Links</div>
+                <div className="card-footer d-flex justify-content-around car-links">
+                  <a href="">Link</a>
+                  <a href="">Link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -96,7 +102,10 @@ export default function Projects() {
                   for users to manage their recipes and discover new ones, all
                   within a visually appealing and intuitive interface.
                 </p>
-                <div className="card-footer">Links</div>
+                <div className="card-footer d-flex justify-content-around recipe-links">
+                  <a href="">Link</a>
+                  <a href="">Link</a>
+                </div>
               </div>
             </div>
           </div>
