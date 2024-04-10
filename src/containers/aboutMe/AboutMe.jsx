@@ -22,6 +22,15 @@ export default function AboutMe() {
               performance, I'm dedicated to delivering high-quality solutions
               that exceed expectations. Let's build something amazing together!
             </p>
+            <div className="button-container d-flex justify-content-center">
+              <button
+                type="button"
+                className="btn btn-primary btn-lg mt-5"
+                onClick={() => window.open("./portfolioResume.pdf", "_blank")}
+              >
+                Resume
+              </button>
+            </div>
           </div>
         </div>
       </div>

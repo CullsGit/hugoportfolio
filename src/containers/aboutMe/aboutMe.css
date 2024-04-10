@@ -50,3 +50,16 @@
     padding-top: 1rem;
   }
 }
+
+.about-page__content button {
+  color: black;
+  background: var(--primary-gradient);
+  border: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  .about-page__content button {
+    font-size: 1.8rem;
+  }
+}
