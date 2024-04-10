@@ -33,10 +33,10 @@ export default function Projects() {
                   application.
                 </p>
                 <div className="card-footer d-flex justify-content-around poke-links">
-                  <a href="">
+                  <a href="https://cullsgit.github.io/collectemall/">
                     <img className="img-fluid" src={projectLink} />
                   </a>
-                  <a href="">
+                  <a href="https://github.com/CullsGit/collectemall">
                     <img className="img-fluid" src={githubLink} />
                   </a>
                 </div>
@@ -75,10 +75,10 @@ export default function Projects() {
                   approach.
                 </p>
                 <div className="card-footer d-flex justify-content-around car-links">
-                  <a href="">
+                  <a href="https://cullsgit.github.io/DealCars/">
                     <img className="img-fluid" src={projectLink} />
                   </a>
-                  <a href="">
+                  <a href="https://github.com/CullsGit/DealCars">
                     <img className="img-fluid" src={githubLink} />
                   </a>
                 </div>
@@ -113,10 +113,10 @@ export default function Projects() {
                   within a visually appealing and intuitive interface.
                 </p>
                 <div className="card-footer d-flex justify-content-around recipe-links">
-                  <a href="">
+                  <a href="https://cookbook-36682.web.app/">
                     <img className="img-fluid" src={projectLink} />
                   </a>
-                  <a href="">
+                  <a href="https://github.com/CullsGit/cookbook">
                     <img className="img-fluid" src={githubLink} />
                   </a>
                 </div>
