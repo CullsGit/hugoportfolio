@@ -58,6 +58,14 @@
   text-transform: uppercase;
 }
 
+.about-page__content button {
+  transition: transform 0.3s;
+}
+
+.about-page__content button:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 1200px) {
   .about-page__content button {
     font-size: 1.8rem;

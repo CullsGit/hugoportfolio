@@ -53,6 +53,14 @@
   text-transform: uppercase;
 }
 
+.landing-page button {
+  transition: transform 0.3s;
+}
+
+.landing-page button:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 1200px) {
   .landing-page button {
     font-size: 1.8rem;
