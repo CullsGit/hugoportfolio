@@ -75,3 +75,7 @@
   border: 2px solid rgba(255, 7, 171, 1);
   box-shadow: 0 0 10px rgba(255, 7, 171, 0.5);
 }
+
+.card-footer img {
+  height: 2rem;
+}

@@ -2,9 +2,11 @@ import React from "react";
 import "./projects.css";
 
 import pokeimg from "../../assets/poke.png";
-import smcarsimg from "../../assets/cars.png";
-import lgcarsimg from "../../assets/singlecar.png";
-import recipesimg from "../../assets/recipes.png";
+import smcarsImg from "../../assets/cars.png";
+import lgcarsImg from "../../assets/singlecar.png";
+import recipesImg from "../../assets/recipes.png";
+import projectLink from "../../assets/export.png";
+import githubLink from "../../assets/github.png";
 
 export default function Projects() {
   return (
@@ -31,8 +33,12 @@ export default function Projects() {
                   application.
                 </p>
                 <div className="card-footer d-flex justify-content-around poke-links">
-                  <a href="">Link</a>
-                  <a href="">Link</a>
+                  <a href="">
+                    <img className="img-fluid" src={projectLink} />
+                  </a>
+                  <a href="">
+                    <img className="img-fluid" src={githubLink} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -43,12 +49,12 @@ export default function Projects() {
           <div className="row g-0">
             <div className="col-xl-4">
               <img
-                src={smcarsimg}
+                src={smcarsImg}
                 className="img-fluid sm-car"
                 alt="car project"
               />
               <img
-                src={lgcarsimg}
+                src={lgcarsImg}
                 className="img-fluid lg-car"
                 alt="car project"
               />
@@ -69,8 +75,12 @@ export default function Projects() {
                   approach.
                 </p>
                 <div className="card-footer d-flex justify-content-around car-links">
-                  <a href="">Link</a>
-                  <a href="">Link</a>
+                  <a href="">
+                    <img className="img-fluid" src={projectLink} />
+                  </a>
+                  <a href="">
+                    <img className="img-fluid" src={githubLink} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -81,7 +91,7 @@ export default function Projects() {
           <div className="row g-0">
             <div className="col-xl-4">
               <img
-                src={recipesimg}
+                src={recipesImg}
                 className="img-fluid"
                 alt="recipe project"
               />
@@ -103,8 +113,12 @@ export default function Projects() {
                   within a visually appealing and intuitive interface.
                 </p>
                 <div className="card-footer d-flex justify-content-around recipe-links">
-                  <a href="">Link</a>
-                  <a href="">Link</a>
+                  <a href="">
+                    <img className="img-fluid" src={projectLink} />
+                  </a>
+                  <a href="">
+                    <img className="img-fluid" src={githubLink} />
+                  </a>
                 </div>
               </div>
             </div>
