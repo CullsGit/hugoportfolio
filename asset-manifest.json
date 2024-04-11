@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hugoportfolio/static/css/main.3bfef2bd.css",
+    "main.js": "/hugoportfolio/static/js/main.7d9b102f.js",
+    "static/media/headshot.svg": "/hugoportfolio/static/media/headshot.3b458aea18799f44983d71b92222bc6f.svg",
+    "static/media/computer_desk.png": "/hugoportfolio/static/media/computer_desk.62e42ddbb2072db92b91.png",
+    "static/media/recipes.png": "/hugoportfolio/static/media/recipes.eacc1c6a797bde7749d9.png",
+    "static/media/cars.png": "/hugoportfolio/static/media/cars.c4f13275844c2637f53e.png",
+    "static/media/cone.png": "/hugoportfolio/static/media/cone.57fe9002b44384d08a0b.png",
+    "static/media/singlecar.png": "/hugoportfolio/static/media/singlecar.ae26fd724e897539c670.png",
+    "static/media/poke.png": "/hugoportfolio/static/media/poke.8c33051af2998de2c329.png",
+    "static/media/Agrandir-GrandHeavy.otf": "/hugoportfolio/static/media/Agrandir-GrandHeavy.543cbb93e2f4479f4c39.otf",
+    "static/media/github.png": "/hugoportfolio/static/media/github.2d31fea2becc6a0cd29e.png",
+    "index.html": "/hugoportfolio/index.html",
+    "main.3bfef2bd.css.map": "/hugoportfolio/static/css/main.3bfef2bd.css.map",
+    "main.7d9b102f.js.map": "/hugoportfolio/static/js/main.7d9b102f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bfef2bd.css",
+    "static/js/main.7d9b102f.js"
+  ]
+}
